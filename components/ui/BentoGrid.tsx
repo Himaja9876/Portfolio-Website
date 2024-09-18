@@ -12,12 +12,10 @@ export const BentoGrid = ({
 
 export const BentoGridItem = ({
   className,
-  id,
   title,
   description,
   img,
   imgClassName,
-  titleClassName,
 }: {
   className?: string;
   id: number;
@@ -25,7 +23,6 @@ export const BentoGridItem = ({
   description?: string | React.ReactNode;
   img?: string;
   imgClassName?: string;
-  titleClassName?: string;
 }) => {
   return (
     <div className="py-20">
