@@ -45,8 +45,8 @@ export const projects = [
     des: "A website with backend API integration for streaming movie videos and GPT-driven personalized movie suggestions.",
     img: "https://static01.nyt.com/images/2020/02/06/arts/06netflix/06netflix-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
     iconLists: [
-      "html.svg",
-      "/css.svg",
+      "/html5.svg",
+      "/css3.svg",
       "/react.svg",
       "/redux.svg",
       "/tailwind.svg",
@@ -62,8 +62,8 @@ export const projects = [
     des: "A dynamic eCommerce platform featuring intuitive navigation and real-time cart total updates.",
     img: "https://deerdesigner.com/wp-content/uploads/2024/05/Article-34-ecommerce-design-01.png",
     iconLists: [
-      "/html.svg",
-      "/css.svg",
+      "/html5.svg",
+      "/css3.svg",
       "javascript.svg",
       "/react.svg",
       "/bootstrap.svg",
@@ -327,10 +327,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/githubicon.svg",
+    platform: "GitHub" // Add platform property here
   },
   {
     id: 2,
     img: "/link.svg",
+    platform: "LinkedIn" // Add platform property here
   },
 ];

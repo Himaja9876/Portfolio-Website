@@ -1,13 +1,5 @@
 import React from "react";
 
-/**
- *  UI: border magic from tailwind css btns
- *  Link: https://ui.aceternity.com/components/tailwindcss-buttons
- *
- *  change border radius to rounded-lg
- *  add margin of md:mt-10
- *  remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50
- */
 const MagicButton = ({
   title,
   icon,
@@ -23,15 +15,15 @@ const MagicButton = ({
 }) => {
   return (
     <button
-      className="relative inline-flex h-10 w-full ml-1 md:w-60 overflow-hidden rounded-lg p-[1px] focus:outline-none"
+      className={`relative inline-flex h-10 w-30 ml-1 md:w-50 overflow-hidden rounded-lg p-[1px] focus:outline-none
+        hover:bg-gradient-to-r hover:from-purple-400 hover:to-blue-500 transition-all duration-300`}
       onClick={handleClick}
     >
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
 
-      {/* remove px-3 py-1, add px-5 gap-2 */}
       <span
         className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg
-             bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}
+             bg-slate-950 hover:bg-slate-800 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`}
       >
         {position === "left" && icon}
         {title}
