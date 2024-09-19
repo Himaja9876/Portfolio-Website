@@ -45,8 +45,8 @@ export const projects = [
     des: "A website with backend API integration for streaming movie videos and GPT-driven personalized movie suggestions.",
     img: "https://static01.nyt.com/images/2020/02/06/arts/06netflix/06netflix-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
     iconLists: [
-      "/html5.svg",
-      "/css3.svg",
+      "/HTML5.svg",
+      "/CSS3.svg",
       "/react.svg",
       "/redux.svg",
       "/tailwind.svg",
@@ -138,25 +138,25 @@ export const companies = [
   {
     id: 3,
     name: "JavaScript",
-    img: "/JavaScript.svg",
+    img: "/javaScript.svg",
     nameImg: "JavaScript",
   },
   {
     id: 4,
     name: "TypeScript",
-    img: "/TypeScript.svg",
+    img: "/typeScript.svg",
     nameImg: "TypeScript",
   },
   {
     id: 5,
     name: "React",
-    img: "/React.svg",
+    img: "/react.svg",
     nameImg: "ReactJS",
   },
   {
     id: 6,
     name: "Redux",
-    img: "/Redux.svg",
+    img: "/redux.svg",
     nameImg: "Redux",
   },
   {
@@ -168,7 +168,7 @@ export const companies = [
   {
     id: 8,
     name: "Bootstrap",
-    img: "/Bootstrap.svg",
+    img: "/bootstrap.svg",
     nameImg: "Bootstrap",
   },
   {
@@ -198,7 +198,7 @@ export const companies = [
   {
     id: 10,
     name: "jest",
-    img: "/Jest.svg",
+    img: "/jest.svg",
     nameImg: "jest",
   },
   {
@@ -210,43 +210,43 @@ export const companies = [
   {
     id: 10,
     name: "C",
-    img: "/C.svg",
+    img: "/c.svg",
     nameImg: "C",
   },
   {
     id: 10,
     name: "python",
-    img: "/Python.svg",
+    img: "/python.svg",
     nameImg: "python",
   },
   {
     id: 12,
     name: "Figma",
-    img: "/Figma.svg",
+    img: "/figma.svg",
     nameImg: "Figma",
   },
   {
     id: 13,
     name: "mysql",
-    img: "/MySQL.svg",
+    img: "/mysql.svg",
     nameImg: "MySQL",
   },
   {
     id: 14,
     name: "mongodb",
-    img: "/MongoDB.svg",
+    img: "/mongoDB.svg",
     nameImg: "MongoDB",
   },
   {
     id: 15,
     name: "docker",
-    img: "/Docker.svg",
+    img: "/docker.svg",
     nameImg: "Docker",
   },
   {
     id: 16,
     name: "kubernetes",
-    img: "/Kubernetes.svg",
+    img: "/kubernetes.svg",
     nameImg: "Kubernetes",
   },
   {
@@ -270,19 +270,19 @@ export const companies = [
   {
     id: 18,
     name: "postman",
-    img: "/Postman.svg",
+    img: "/postman.svg",
     nameImg: "Postman",
   },
   {
     id: 19,
     name: "git",
-    img: "/Git.svg",
+    img: "/git.svg",
     nameImg: "git",
   },
   {
     id: 20,
     name: "jira",
-    img: "/Jira.svg",
+    img: "/jira.svg",
     nameImg: "jira",
   },
   {
