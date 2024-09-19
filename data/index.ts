@@ -62,8 +62,8 @@ export const projects = [
     des: "A dynamic eCommerce platform featuring intuitive navigation and real-time cart total updates.",
     img: "https://deerdesigner.com/wp-content/uploads/2024/05/Article-34-ecommerce-design-01.png",
     iconLists: [
-      "/html5.svg",
-      "/css3.svg",
+      "/HTML5.svg",
+      "/CSS3.svg",
       "javascript.svg",
       "/react.svg",
       "/bootstrap.svg",
@@ -138,13 +138,13 @@ export const companies = [
   {
     id: 3,
     name: "JavaScript",
-    img: "/javaScript.svg",
+    img: "/javascript.svg",
     nameImg: "JavaScript",
   },
   {
     id: 4,
     name: "TypeScript",
-    img: "/typeScript.svg",
+    img: "/typescript.svg",
     nameImg: "TypeScript",
   },
   {
@@ -180,7 +180,7 @@ export const companies = [
   {
     id: 11,
     name: "jQuery",
-    img: "/jQuery.svg",
+    img: "/jquery.svg",
     nameImg: "jQuery",
   },
   {
@@ -234,7 +234,7 @@ export const companies = [
   {
     id: 14,
     name: "mongodb",
-    img: "/mongoDB.svg",
+    img: "/mongodb.svg",
     nameImg: "MongoDB",
   },
   {
@@ -264,7 +264,7 @@ export const companies = [
   {
     id: 18,
     name: "firebase",
-    img: "/Firebase.svg",
+    img: "/firebase.svg",
     nameImg: "Firebase",
   },
   {
@@ -282,7 +282,7 @@ export const companies = [
   {
     id: 20,
     name: "jira",
-    img: "/jira.svg",
+    img: "/Jira.svg",
     nameImg: "jira",
   },
   {
