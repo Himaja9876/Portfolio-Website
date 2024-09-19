@@ -8,7 +8,7 @@ const Clients = () => {
   return (
     <section id="skills" className="py-20">
       <h1 className="heading pb-28 my-10">
-        <span className="text-purple">Tech Stack</span>
+        Tech <span className="text-purple">Stack</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
