@@ -328,11 +328,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/githubicon.svg",
-    platform: "GitHub" // Add platform property here
+    platform: "GitHub", // Add platform property here
   },
   {
     id: 2,
     img: "/link.svg",
-    platform: "LinkedIn" // Add platform property here
+    platform: "LinkedIn", // Add platform property here
   },
 ];
