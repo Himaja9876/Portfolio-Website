@@ -54,17 +54,24 @@ const Hero = () => {
               words="Himaja Chinnam"
               className="text-center text-[40px] ml-2 md:text-5xl lg:text-6xl"
             />
-            
-            <p className="text-left md:tracking-wider mb-4 text-xs md:text-xs lg:text-lg max-w-full ml-3">
+
+            <p className="uppercase tracking-widest text-xs text-blue-100 mt-4 ml-3">
               Front End Developer
             </p>
 
-            <div className="flex ml-1 mt-10 items-center md:gap-3 gap-6">
+            <div className="flex ml-1 mt-10 items-center md:gap-3 gap-2">
               {socialMedia.map((info) => (
                 <MagicButton
                   key={info.id}
                   title={info.platform}
-                  icon={<img src={info.img} alt={info.platform} width={20} height={20} />}
+                  icon={
+                    <img
+                      src={info.img}
+                      alt={info.platform}
+                      width={20}
+                      height={20}
+                    />
+                  }
                   position="left"
                   handleClick={() =>
                     window.open(
