@@ -26,38 +26,38 @@ export const BentoGridItem = ({
 }) => {
   return (
     <div className="py-20">
-      <div className="text-center mb-10">
-        <h1 className="heading">
-          <span className="text-purple">About</span>
+      <div className="text-center">
+        <h1 className="heading text-purple text-4xl md:mt-40 pb-14 font-bold relative z-[50]">
+          About
         </h1>
       </div>
 
       <div
         className={cn(
-          "row-span-1 group relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+          "row-span-1 group relative  h-[800px] md:h-[500px] overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
           className
         )}
         style={{
           background: "rgb(18,19,28)",
           backgroundColor:
             "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-          height: "400px",
+          height: "450px",
         }}
       >
-        <div className="flex h-full">
-          <div className="w-1/2 p-5 lg:p-10 flex flex-col justify-between">
+        <div className="flex md:h-full">
+          <div className="w-1/2 h-max pr-1 py-8 pl-3 md:p-5 md:w-1/2 lg:p-10 flex flex-col justify-between">
             <div
-              className="font-sans font-extralight text-xl md:text-xl lg:text-lg text-[#cacbdb] z-10 group-hover/bento:translate-x-2 transition duration-200"
+              className="font-sans font-extralight text-xs md:text-lg text-[#cacbdb] text-justify transition duration-200"
               style={{ whiteSpace: "pre-line" }} // Apply inline style for text wrapping
             >
               {description}
             </div>
-            <div className={`font-sans text-lg lg:text-3xl font-bold z-10`}>
+            {/*<div className={`font-sans text-lg lg:text-3xl font-bold z-10`}>
               {title}
-            </div>
+            </div> */}
           </div>
           {img && (
-            <div className="w-1/2 p-4 flex items-center justify-center">
+            <div className="w-1/2 p-2 md:w-1/2 md:p-4 flex items-center justify-center">
               <img
                 src={img}
                 alt={img}

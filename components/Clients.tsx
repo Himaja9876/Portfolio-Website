@@ -7,7 +7,7 @@ import { companies } from "@/data";
 const Clients = () => {
   return (
     <section id="skills" className="py-20">
-      <h1 className="heading pb-28 my-10">
+      <h1 className="heading md:pb-5 my-10">
         Tech <span className="text-purple">Stack</span>
       </h1>
 

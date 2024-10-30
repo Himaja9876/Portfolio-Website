@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <section id="home">
-      <div className="relative pb-20 pt-36 mt-20">
+      <div className="relative pb-20 pt-36 md:pt-56 mt-20">
         {/* Spotlights */}
         <div>
           <Spotlight
@@ -44,8 +44,8 @@ const Hero = () => {
         </div>
 
         {/* Main Content */}
-        <div className="flex justify-center relative my-20 z-10">
-          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-start justify-center">
+        <div className="flex justify-center relative sm:px-6 md:px-8 lg:px-10 z-10">
+          <div className="mx-8 md:mx-8 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-start justify-center">
             <p className="uppercase tracking-widest text-xs text-blue-100 mt-4 ml-3">
               Hello! 👋 I&apos;m
             </p>
