@@ -45,7 +45,7 @@ export const FloatingNav = ({
         }}
         transition={{ duration: 0.2 }}
         className={cn(
-          "flex fixed z-[8000] top-10 inset-x-0 mx-auto max-w-sm md:min-w-[70vw] lg:min-w-fit px-4 sm:px-8 md:px-10 py-3 sm:py-4 rounded-lg border border-black/.1 shadow-md items-center justify-center space-x-2 sm:space-x-4",
+          "flex fixed z-[8000] top-10 inset-x-0 mx-auto max-w-sm md:min-w-[70vw] lg:min-w-fit px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-lg border border-black/.1 shadow-md items-center justify-center space-x-4 sm:space-x-6",
           className
         )}
         style={{
@@ -64,7 +64,7 @@ export const FloatingNav = ({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-sm px-[0.5] !cursor-pointer">
+            <span className="text-sm px-[2] !cursor-pointer">
               {navItem.name}
             </span>{" "}
             {/* Adjusted text size */}
