@@ -52,14 +52,14 @@ const Hero = () => {
 
             <TextGenerateEffect
               words="Himaja Chinnam"
-              className="text-center text-[40px] ml-2 md:text-5xl lg:text-6xl"
+              className="text-center text-[30px] pl-[0.5] ml-2 md:text-5xl lg:text-6xl"
             />
 
             <p className="uppercase tracking-widest text-xs text-blue-100 mt-4 ml-3">
               Front End Developer
             </p>
 
-            <div className="flex ml-1 mt-10 items-center md:gap-3 gap-2">
+            <div className="flex ml-1 mt-10 items-center md:gap-3 gap-1 md:w-96 w-72">
               {socialMedia.map((info) => (
                 <MagicButton
                   key={info.id}
