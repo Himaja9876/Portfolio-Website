@@ -10,9 +10,11 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "",
+    title: "About Me",
     description:
-      "I'm Himaja Chinnam, a Master’s student in Computer Science at SUNY Binghamton University, graduating in December 2024.\n\nI am currently seeking full-time opportunities where I can apply my technical expertise and project experience. I am a driven Software Engineer with over 2 years of experience, specializing in full-stack development, frontend development, and software testing.\n\nKnown for my problem-solving skills and commitment to delivering high-quality solutions, I pride myself on my creativity and ability to think outside the box. In my free time, I enjoy exploring new technologies and working on innovative projects. My passion lies in developing scalable software solutions and leveraging data to create impactful and user-friendly applications.",
+      "I'm Himaja Chinnam, a Master’s student in Computer Science at SUNY Binghamton University graduating in December 2024.\n\n" +
+      "I am currently seeking full-time opportunities where I can apply my technical expertise and project experience. With over 2 years of experience as a driven Software Engineer specializing in full-stack development, frontend development, and software testing, I am excited to contribute to impactful projects.\n\n" +
+      "Known for my problem-solving skills and commitment to delivering high-quality solutions, I bring creativity and an ability to think outside the box. In my free time, I enjoy exploring new technologies and working on innovative projects. I am passionate about developing scalable software solutions and using data to create impactful, user-friendly applications.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -22,22 +24,6 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Food Ordering App",
-    pintitle: "FoodApp",
-    des: "Interactive React app with Redux, Firebase, Tailwind CSS, and optimized performance.",
-    img: "https://img.pikbest.com/wp/202343/vegetarian-fresh-food-logo-organic-vegetable-salad-on-textured-grey-background-with-copy-space_9943294.jpg!bw700",
-    iconLists: [
-      "/react.svg",
-      "/redux.svg",
-      "/tailwind.svg",
-      "/firebase.svg",
-      "/jest.svg",
-    ],
-    link: "/ui.earth.com",
-    githubUrl: "https://github.com/Himaja9876/Food-Ordering-App",
-  },
   {
     id: 2,
     title: "NetflixGPT",
@@ -54,6 +40,22 @@ export const projects = [
     ],
     link: "/ui.yoom.com",
     githubUrl: "https://github.com/Himaja9876/Netflix-GPT",
+  },
+  {
+    id: 1,
+    title: "Food Ordering App",
+    pintitle: "FoodApp",
+    des: "Interactive React app with Redux, Firebase, Tailwind CSS, and optimized performance.",
+    img: "https://img.pikbest.com/wp/202343/vegetarian-fresh-food-logo-organic-vegetable-salad-on-textured-grey-background-with-copy-space_9943294.jpg!bw700",
+    iconLists: [
+      "/react.svg",
+      "/redux.svg",
+      "/tailwind.svg",
+      "/firebase.svg",
+      "/jest.svg",
+    ],
+    link: "/ui.earth.com",
+    githubUrl: "https://github.com/Himaja9876/Food-Ordering-App",
   },
   {
     id: 3,

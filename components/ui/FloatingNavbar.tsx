@@ -64,7 +64,7 @@ export const FloatingNav = ({
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
-            <span className="text-sm px-[2] !cursor-pointer">
+            <span className="text-sm px-[1.5] !cursor-pointer">
               {navItem.name}
             </span>{" "}
             {/* Adjusted text size */}

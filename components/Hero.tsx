@@ -56,7 +56,7 @@ const Hero = () => {
             />
 
             <p className="uppercase tracking-widest text-xs text-blue-100 mt-4 ml-3">
-              Front End Developer
+              Software Engineer
             </p>
 
             <div className="flex ml-1 mt-10 items-center md:gap-3 gap-1 md:w-96 w-72">

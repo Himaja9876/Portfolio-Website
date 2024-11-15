@@ -25,7 +25,7 @@ export const BentoGridItem = ({
 }) => {
   return (
     <div className="py-20">
-      <div className="text-center">
+      <div className="md:text-center">
         <h1 className="heading text-purple text-4xl md:mt-40 pb-14 font-bold relative z-[50]">
           About
         </h1>
@@ -33,7 +33,7 @@ export const BentoGridItem = ({
 
       <div
         className={cn(
-          "row-span-1 group relative  h-[800px] md:h-[500px] overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+          "row-span-1 group relative h-[800px] md:h-[500px] overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
           className
         )}
         style={{
@@ -43,20 +43,17 @@ export const BentoGridItem = ({
           height: "600px",
         }}
       >
-        <div className="flex md:h-full">
-          <div className="w-1/2 h-max pr-1 py-8 pl-3 md:p-5 md:w-1/2 lg:p-10 flex flex-col justify-between">
+        <div className="flex flex-col md:flex-row md:h-full">
+          <div className="w-full md:w-1/2 h-max px-4 py-4 md:p-5 lg:p-10 flex flex-col justify-between">
             <div
               className="font-sans font-extralight text-xs md:text-lg text-[#cacbdb] text-justify transition duration-200"
-              style={{ whiteSpace: "pre-line" }} // Apply inline style for text wrapping
+              style={{ whiteSpace: "pre-line" }}
             >
               {description}
             </div>
-            {/*<div className={`font-sans text-lg lg:text-3xl font-bold z-10`}>
-              {title}
-            </div> */}
           </div>
           {img && (
-            <div className="w-1/2 p-2 md:w-1/2 md:p-4 flex items-center justify-center">
+            <div className="w-full md:w-1/2 p-2 md:p-4 flex items-center justify-center">
               <img
                 src={img}
                 alt={img}
