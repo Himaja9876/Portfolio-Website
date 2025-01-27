@@ -306,7 +306,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Web Developer",
+    title: "Full Stack Developer",
     desc: "Developed a high-performance React app with optimized modular UI components, enhancing user experience and maintainability. Created scalable backend services with RESTful APIs and integrated them seamlessly with MySQL databases.",
     duration: "IBM: Jan 2022 - Dec 2022",
     className: "md:col-span-2", // change to md:col-span-2
