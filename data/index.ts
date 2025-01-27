@@ -300,6 +300,7 @@ export const workExperience = [
     id: 1,
     title: "Graduate Teaching Assistant",
     desc: "Guided 40 graduate students in Python Practicum, enhancing their understanding of complex Python concepts. Facilitated office hours, leading to a 30% improvement in student performance.",
+    duration: "Binghamton University: Aug 2023 - Dec 2023",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -307,6 +308,7 @@ export const workExperience = [
     id: 2,
     title: "Web Developer",
     desc: "Developed a high-performance React app with optimized modular UI components, enhancing user experience and maintainability. Created scalable backend services with RESTful APIs and integrated them seamlessly with MySQL databases.",
+    duration: "IBM: Jan 2022 - Dec 2022",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp4.svg",
   },
@@ -315,6 +317,7 @@ export const workExperience = [
     title: "Front End Developer",
     desc: "Transitioned a website from React v0.14.8 to v16.13.1, enhancing performance and scalability. Designed responsive UIs with ReactJS and conducted unit testing with Jest, significantly reducing customer complaints from 8% to 0.5%.",
     className: "md:col-span-2", // change to md:col-span-2
+    duration: "IBM: Apr 2021 - Jan 2022",
     thumbnail: "/exp1.svg",
   },
   {
@@ -322,6 +325,7 @@ export const workExperience = [
     title: "Test Specialist",
     desc: "Developed and optimized comprehensive test strategies, plans, and cases for over 600 REST Assured API automation scripts, integrating them into CI/CD pipelines with GitHub Actions and Maven to enhance regression testing efficiency.",
     className: "md:col-span-2",
+    duration: "IBM: Jan 2021 - Mar 2021",
     thumbnail: "/exp4.svg",
   },
 ];
