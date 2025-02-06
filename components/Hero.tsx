@@ -8,7 +8,7 @@ import { socialMedia } from "@/data";
 
 const Hero = () => {
   const openResume = () => {
-    window.open("/resume.pdf", "_blank");
+    window.open("/Resume_Himaja_Chinnam.pdf", "_blank");
   };
 
   return (

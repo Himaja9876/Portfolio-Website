@@ -12,13 +12,14 @@ export const gridItems = [
     id: 1,
     title: "About Me",
     description:
-      "I'm Himaja Chinnam, a Master’s student in Computer Science at SUNY Binghamton University graduating in December 2024.\n\n" +
-      "I am currently seeking full-time opportunities where I can apply my technical expertise and project experience. With over 2 years of experience as a driven Software Engineer specializing in full-stack development, frontend development, and software testing, I am excited to contribute to impactful projects.\n\n" +
-      "Known for my problem-solving skills and commitment to delivering high-quality solutions, I bring creativity and an ability to think outside the box. In my free time, I enjoy exploring new technologies and working on innovative projects. I am passionate about developing scalable software solutions and using data to create impactful, user-friendly applications.",
+      "Hi, I'm Himaja Chinnam, a Master’s student in Computer Science at SUNY Binghamton University, graduating in December 2024.\n\n" +
+      "With over 3 years of experience as a Software Engineer, I specialize in full-stack development, frontend engineering, and software testing. I am passionate about building scalable, user-centric applications and leveraging data to create impactful solutions.\n\n" +
+      "Known for my problem-solving mindset and commitment to delivering high-quality software, I thrive in dynamic environments that require creativity and a results-driven approach. In my free time, I explore emerging technologies and work on innovative personal projects.\n\n" +
+      "I am eager to bring my skills to a forward-thinking team and contribute to solving complex challenges. My goal is to create meaningful software that enhances user experiences and drives innovation.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "frontend.webp",
+    img: "photo.jpg",
     spareImg: "",
   },
 ];
@@ -298,35 +299,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Graduate Teaching Assistant",
-    desc: "Guided 40 graduate students in Python Practicum, enhancing their understanding of complex Python concepts. Facilitated office hours, leading to a 30% improvement in student performance.",
+    title: "Graduate Student Assistant",
+    desc: "Mentored 40+ graduate students in Python Practicum, simplifying complex concepts and improving performance by 30% through coding workshops and office hours.",
     duration: "Binghamton University: Aug 2023 - Dec 2023",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "GraduateTeaching.png",
   },
   {
     id: 2,
-    title: "Full Stack Developer",
-    desc: "Developed a high-performance React app with optimized modular UI components, enhancing user experience and maintainability. Created scalable backend services with RESTful APIs and integrated them seamlessly with MySQL databases.",
-    duration: "IBM: Jan 2022 - Dec 2022",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp4.svg",
+    title: "Software Engineer",
+    desc: "Developed high-performance UI components using React, JavaScript, and Redux, reducing page load times by 40%. Built scalable RESTful APIs with Java Spring Boot and MySQL, ensuring seamless backend integration and enhancing SEO and responsiveness.",
+    duration: "IBM: Jan 2021 - Dec 2022",
+    className: "md:col-span-2",
+    thumbnail: "SoftwareEngineer.png",
   },
   {
     id: 3,
-    title: "Front End Developer",
-    desc: "Transitioned a website from React v0.14.8 to v16.13.1, enhancing performance and scalability. Designed responsive UIs with ReactJS and conducted unit testing with Jest, significantly reducing customer complaints from 8% to 0.5%.",
-    className: "md:col-span-2", // change to md:col-span-2
-    duration: "IBM: Apr 2021 - Jan 2022",
-    thumbnail: "/exp1.svg",
+    title: "Software Developer",
+    desc: "Upgraded a legacy React application, improving performance by 60% and reducing deployment time by 40% with React Hooks, TDD, and CI/CD pipelines. Enhanced scalability and maintainability.",
+    duration: "AvyaIT: Oct 2020 - Jan 2021",
+    className: "md:col-span-2",
+    thumbnail: "SoftwareDeveloper.png",
   },
   {
     id: 4,
-    title: "Test Specialist",
-    desc: "Developed and optimized comprehensive test strategies, plans, and cases for over 600 REST Assured API automation scripts, integrating them into CI/CD pipelines with GitHub Actions and Maven to enhance regression testing efficiency.",
+    title: "Software Engineer Intern",
+    desc: "Built a dynamic SPA using React, JavaScript, and Bootstrap, enabling seamless navigation and real-time state updates via React Context API. Developed RESTful APIs with Node.js and Express, ensuring secure authentication.",
+    duration: "AvyaIT: Jan 2020 - Sep 2020",
     className: "md:col-span-2",
-    duration: "IBM: Jan 2021 - Mar 2021",
-    thumbnail: "/exp4.svg",
+    thumbnail: "Intern.png",
   },
 ];
 
